@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: #ffffff;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message_card {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 60vh;
+  width: 40vw;
+}
+
+@media screen and (max-width: 768px) {
+  .message_card {
+    height: 40vh;
+    width: 100vw;
+  }
+}

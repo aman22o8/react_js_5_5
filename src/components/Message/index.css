@@ -1,0 +1,9 @@
+/* Write your CSS here */
+
+.description {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
